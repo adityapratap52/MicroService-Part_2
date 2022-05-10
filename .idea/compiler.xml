@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="movie_info_service" />
+        <module name="rating_data_service" />
+        <module name="movie_catalog_service" />
+        <module name="discovery__server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="discovery__server" target="11" />
+      <module name="movie_catalog_service" target="11" />
+      <module name="movie_info_service" target="11" />
+      <module name="rating_data_service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="discovery__server" options="-parameters" />
+      <module name="movie_catalog_service" options="-parameters" />
+      <module name="movie_info_service" options="-parameters" />
+      <module name="rating_data_service" options="-parameters" />
+    </option>
+  </component>
+</project>
